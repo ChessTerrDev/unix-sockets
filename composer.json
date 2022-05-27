@@ -1,0 +1,19 @@
+{
+    "name": "roman/unix-sockets",
+    "description": "stream php to php. One php do query two php. Two php = daemon.",
+    "autoload": {
+        "psr-4": {
+            "UnixSockets\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Roman",
+            "email": "chess.terr.dev@yandex.ru"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+      "ext-sockets": "*"
+    }
+}
